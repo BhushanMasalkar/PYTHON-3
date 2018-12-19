@@ -1,0 +1,7 @@
+def odd_check(num):
+    if num%2 ==1:
+        return True
+def myfilter (lst):
+    return(list(filter(odd_check,lst)))
+num_lst =range(1,40)
+print(myfilter(num_lst))
