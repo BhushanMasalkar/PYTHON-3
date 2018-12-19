@@ -1,0 +1,10 @@
+def longest_word(wdlist):
+    mlen=0
+    mwd=''
+    for x in wdlist:
+        if len(x)> mlen:
+            mwd=x
+            mlen=len(x)
+    return(mwd)
+list_1=['bhushan', 'krish','rucha','Masalkar','chin','amy']
+print(longest_word(list_1))
